@@ -1,0 +1,30 @@
+#canvasContainer {
+  
+    position: relative;
+    width: 300px;
+    
+    background-repeat: no-repeat ;
+}
+
+#canvas {
+    z-index: 1;
+}
+#prizePointer {
+    background-image: url(ponta.svg);
+    position: absolute;
+    left: 410px;
+    top: 30px;
+    z-index: 999;
+}
+#roleta{
+  position: relative;
+  bottom: -70px;
+}
+#app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
